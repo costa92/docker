@@ -18,7 +18,7 @@ make buildx
 make version
 ```
 
-## clean docker  unused  images
+## clean docker unused  images
 
 ```sh
 make cache
