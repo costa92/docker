@@ -23,8 +23,8 @@ buildx_info:
 build_create:
 	docker buildx create --name pensive_keller &&\
 	docker buildx use pensive_keller 
-
-bulidx:
+	
+buildx:
 	docker buildx build --load -t $(DOCKER_IMAGE_TKE_LOCAL) --platform linux/arm64 .
 
 push:
