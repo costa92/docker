@@ -13,7 +13,7 @@ docker buildx version
  docker buildx inspect --bootstrap
 ```
 
-3. 接下来，我們建立一个 builder 并使用（初次安裝执行一次即可）
+3. 接下来，建立一个 builder 并使用（初次安裝执行一次即可）
    
 ```sh
 docker buildx create --use
@@ -23,6 +23,7 @@ docker buildx create --use
 ```sh
 docker buildx create --name mybuilder
 ```
+
 5. 使用 builder
 
 ```sh
